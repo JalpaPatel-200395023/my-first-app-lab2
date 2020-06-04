@@ -1,0 +1,19 @@
+{
+  "name": "my-first-app",
+  "version": "1.0.0",
+  "description": "MyFirstApp",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JalpaPatel-200395023/MyFirstApp.git"
+  },
+  "author": "Jalpa Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JalpaPatel-200395023/MyFirstApp/issues"
+  },
+  "homepage": "https://github.com/JalpaPatel-200395023/MyFirstApp/tree/master/MyFirstApp",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
