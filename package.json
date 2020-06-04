@@ -1,19 +1,24 @@
 {
   "name": "my-first-app",
   "version": "1.0.0",
-  "description": "MyFirstApp",
+  "description": "My First Node.js App | Lab 2",
   "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JalpaPatel-200395023/MyFirstApp.git"
+    "url": "git+https://github.com/JalpaPatel-200395023/my-first-app-lab2.git"
   },
-  "author": "Jalpa Patel",
+  "author": "Shaun McKinnon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JalpaPatel-200395023/MyFirstApp/issues"
+    "url": "https://github.com/JalpaPatel-200395023/my-first-app-lab2/issues"
   },
-  "homepage": "https://github.com/JalpaPatel-200395023/MyFirstApp/tree/master/MyFirstApp",
-  "devDependencies": {
+  "homepage": "https://github.com/JalpaPatel-200395023/my-first-app-lab2#readme",
+  "dependencies": {
     "express": "^4.17.1"
   }
 }
